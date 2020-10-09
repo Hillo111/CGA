@@ -12,7 +12,6 @@ def getFrames(gifloc):
         i += 1
         try:
             frame.seek(i)
-            # frame.save("C:/users/max/downloads/frames/frame{}.png".format(i))
         except EOFError:
             return frames
 
