@@ -2,6 +2,8 @@ from PIL import Image
 from time import sleep
 from os import system, name
 
+# Pretty sure there are optimisations to be made, but eh, whatever
+
 
 def getFrames(gifloc):
     frames = []
